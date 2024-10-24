@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# This script runs SpotBugs on the project.
+mvn com.github.spotbugs:spotbugs-maven-plugin:check

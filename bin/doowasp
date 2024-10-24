@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# OWASP dependency-check is an open source solution to the OWASP Top 10 2021
+# entry: A06:2021 – Vulnerable and Outdated Components. Dependency-check can
+# currently be used to scan software to identify the use of known vulnerable
+# components.
+
+# https://jeremylong.github.io/DependencyCheck/general/internals.html
+mvn org.owasp:dependency-check-maven:check

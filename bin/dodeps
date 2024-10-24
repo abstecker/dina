@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# This script runs the dependency-check Maven plugin on the project.
+mvn dependency:analyze
+mvn dependency:tree
