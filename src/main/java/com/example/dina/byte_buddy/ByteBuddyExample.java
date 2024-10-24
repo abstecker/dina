@@ -13,14 +13,14 @@ public class ByteBuddyExample {
     // Step 1: Generate the class
     DynamicType.Unloaded<?> dynamicType = new ByteBuddy()
         .subclass(Object.class)
-        .name("GeneratedClass")
+        .name("com.example.dina.byte_buddy.generated.GeneratedClass")
         .method(ElementMatchers.named("toString"))
         .intercept(FixedValue.value("Hello World!"))
         .make();
 
     // Step 2: Save the generated class to a file
     try {
-      dynamicType.saveIn(new File("src/main/java/com/example/dina/byte_buddy/generated"));
+      dynamicType.saveIn(new File("src/main/java"));
     } catch (IOException e) {
       e.printStackTrace();
     }

@@ -10,6 +10,9 @@
 
 * [Byte Buddy](https://bytebuddy.net/)
   * Baeldung > [A Guide to Byte Buddy](https://www.baeldung.com/byte-buddy)
+* [javassist](https://github.com/jboss-javassist/javassist)
+  * [Getting Started with Javassist](https://www.javassist.org/tutorial/tutorial.html)
+  * Baeldung > [A Guide to Javassist](https://www.baeldung.com/javassist)
 
 ## Maven Plugins
 
