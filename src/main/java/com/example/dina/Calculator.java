@@ -1,4 +1,4 @@
-package com.example.my_project;
+package com.example.dina;
 
 /**
  * This class provides basic arithmetic operations.

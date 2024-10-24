@@ -1,4 +1,4 @@
-package com.example.my_project;
+package com.example.dina;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
